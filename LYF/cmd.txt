@@ -1,0 +1,35 @@
+
+cd /d F:
+::::::::::::
+set LYF=LYF3
+md %LYF%
+::::::::::::
+md %LYF%\LYFASDevelopment
+md %LYF%\LYFASDevelopment\AShome
+md %LYF%\LYFASDevelopment\ASsdk
+md %LYF%\LYFASDevelopment\ASgradle
+md %LYF%\LYFASDevelopment\ASndk
+md %LYF%\LYFASDevelopment\OtherTools
+::::::::::::
+md %LYF%\LYFjavaDevelopment
+md %LYF%\LYFjavaDevelopment\EclipseHome
+md %LYF%\LYFjavaDevelopment\IDEAhome
+md %LYF%\LYFjavaDevelopment\mvnHome
+md %LYF%\LYFjavaDevelopment\MySQLhome
+md %LYF%\LYFjavaDevelopment\TomcatHome
+::::::::::::
+md %LYF%\LYFjdk
+md %LYF%\LYFjdk\jdkHome1.7
+md %LYF%\LYFjdk\jdkHome1.8
+::::::::::::
+md %LYF%\WorkspaceAS1
+md %LYF%\Workspacejava1
+::::::::::::
+ECHO 说明 >> %LYF%\lyf.txt
+ECHO [AShome]：http://www.android-studio.org/ >> %LYF%\lyf.txt
+ECHO [jdkHome1.7]：http://101.96.10.41/download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-windows-x64.exe?AuthParam=1478151846_ed44364039b5a9f1bed66c80d709995b  
+ >> %LYF%\lyf.txt
+
+
+
+
